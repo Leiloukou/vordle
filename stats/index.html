@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your stats | Vordle</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="logo">Vordle</h1>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><a href="/" class="nav__link">Play</a></li>
+                <li class="nav__li"><a href="/stats/" class="nav__link">Your stats</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container" style="text-align: center; color: #ffff;">
+        <p data-lost style="margin: 1em">How many games you have lost: 0</p>
+        <p data-won style="margin: 1em">How many games you have won: 0</p>
+    </div>
+    <script src="/stats.js" defer="true" async="true" type="text/javascript"></script>
+</body>
+
+</html>
